@@ -55,7 +55,7 @@ public abstract class BaseChangelogActivity extends AppCompatActivity {
     }
 
     protected int getThemeRes() {
-        int themePref = Settings.System.getInt(getContentResolver(), Settings.System.BE_THEME, 0);
+        int themePref = 2; //Settings.System.getInt(getContentResolver(), Settings.System.BE_THEME, 0);
         switch (themePref) {
             /*
             case 1:
